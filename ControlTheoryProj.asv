@@ -1,0 +1,8 @@
+%% Initiallizing MATLAB
+format compact
+close all
+clc
+
+%% Transfer Function Define:
+G1 = tf([1 2] , [1 2 4]);
+G2 = tf([
